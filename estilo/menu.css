@@ -1,0 +1,60 @@
+@charset "UTF-8";
+:root {
+    --cor0:#85C0FF ;
+    --cor1:#007aff ;
+    --cor2:#32936F;
+    --cor3:#E6C79C;
+    --cor4:#78586F;
+}
+@media screen and (max-width: 790px){
+    article#vendedores > p{
+      font-size: 23px;
+    }
+    div#vendedores img{
+        padding:0px 0px;
+        width:18vw;
+        
+    }  
+    div#vendedores{
+        height: 80px;
+    }
+    nav a{
+        vertical-align: middle;
+        font-size: 0px;   
+     }
+    nav a:hover{
+        font-size: 0px;
+        padding:0px;
+    }
+    nav a > img:hover{
+    transition: 0.5s;
+    padding:15px;
+    border: 1px solid whitesmoke;
+    border-radius: 38%;
+  }
+  div#principal{
+    box-shadow: inset 0px 1px 20px 1px rgba(0, 0, 0, 0.539);
+    background: url(../imagens/sla.jpg) center center no-repeat scroll;
+    background-size: cover;
+    width:98vw;
+    height: 90px;
+}
+div.pro{
+    margin: 20px 0px 0px 0px;
+}
+div#secundaria img{
+    box-sizing: border-box;
+    margin: auto;
+    width:47vw;
+    border-radius: 10%;
+}
+div#secundaria img:hover{
+transition: 0.5s;
+  cursor:pointer;
+  width:48vw;
+}
+footer{
+    background-image: linear-gradient(to right,var(--cor1),var(--cor0));
+    height:14px;
+}
+}

@@ -1,0 +1,21 @@
+section.banner {
+    display: none;
+}
+section.banner  img{
+    width: 80%;
+    height:430px;
+
+}
+<section class="banner">
+            <picture>
+                <source media="(max-width:684px)" srcset="imagens/bannerp.png">
+                <source media="(max-width:768px)" srcset="imagens/bannerm.png">
+                <img src="imagens/bannerg.png" alt="Promoção de Papel Por R$99,00">
+              </picture>
+        </section>
+        
+        <p>Na Dunder Mifflin, nos importamos com a satisfação do cliente acima de tudo. Nosso objetivo é oferecer uma experiência de compra sem complicações, com uma equipe dedicada a ajudar nossos clientes a encontrar os produtos que atendam às suas necessidades e orçamentos. Nossos representantes de atendimento ao cliente estão sempre prontos para ajudar, garantindo que nossos clientes recebam os melhores produtos e serviços com rapidez e eficiência.</p>
+
+        <p>Além disso, a Dunder Mifflin é uma empresa comprometida com a sustentabilidade e o meio ambiente. Fazemos esforços constantes para reduzir nossa pegada de carbono e minimizar o impacto ambiental de nossas operações. Nós também nos esforçamos para trabalhar apenas com fornecedores que compartilham de nossa visão de responsabilidade social e ambiental.</p>
+
+        <p>Se você está procurando uma empresa de suprimentos de escritório em que possa confiar, a Dunder Mifflin é a escolha certa. Temos uma ampla seleção de produtos de alta qualidade, preços competitivos e uma equipe dedicada a garantir que você tenha a melhor experiência possível. Venha experimentar o que torna a Dunder Mifflin a escolha preferida de clientes em todo o mundo.</p>

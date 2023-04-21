@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor Stanley</title>
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/loading.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+    :root {
+    --cor:#A530FF ;
+}
+        body,html{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+           text-align: center;
+           background-color: var(--cor);
+           height: 80px;
+           height: 5vw;
+        }
+        header >img{
+            border: 10px solid rgb(255, 255, 255);
+            width: max(14vw,110px);
+            border-radius: 50%;
+        }
+        nav{
+        background:var(--cor);
+        padding: 5px 0px ;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        }
+        nav img{
+        vertical-align: text-top;
+        width: 19px;
+        padding: 0px;
+        }
+        nav a{
+        display: inline-block;
+        border-radius:10px 90px 5px 5px;
+        font-size: min( 20px,3vw);
+        text-decoration: none;
+        color: #e3f0ff;
+        padding: 10px 20px; 
+        }
+        nav a:hover{
+        transition: 0.9s ;
+        color:white;
+        font-size:min( 22px,2.9vw); 
+        }
+        article> h1{
+            text-align: center;
+            padding-top: 80px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #160e04 ;
+            font-size: 26px;
+        }
+        article> h2{
+            text-align: center;
+            padding-top: 20px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #160e04 ;
+            font-size: 20px;
+        }
+        article>p{
+
+            padding-left: 10px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #160e04 ;
+            font-size: 18px;
+        }
+        li{
+            
+            font-size: 17px;
+            font-family: 'Source Sans Pro', sans-serif;
+            
+        }
+        footer{
+        background:var(--cor);
+        height:1vw;
+        }
+
+    </style>
+</head>
+<body>
+<div id="loader-wrapper">
+    <div id="loader">
+    </div>
+</div>
+ <header>
+    <img src="imagens/Jim.png" alt="Jim Halpert">
+ </header>
+ <nav>
+    <a href="index.html">
+    <img class="bottom" src="imagens/home.png" alt="Dunder Mifflin" type="imagem/png"> Home
+    </a>
+</nav>
+ <main>
+    <article>
+        <h1>Jim Halpert</h1>
+        <h2>Experiência Profissional</h2>
+        <p>Gerente de Vendas - Dunder Mifflin Paper Company (2013 - Presente)</p>
+        
+            <ul>
+                <li>Gerenciamento de equipe de vendas e supervisão do processo de vendas em um território de vendas que cobre várias cidades.</li>
+                <li>Atingimento de objetivos de vendas trimestrais e anuais, bem como metas individuais de vendas.</li>
+                <li>Desenvolvimento e implementação de planos de vendas e estratégias para maximizar as vendas e superar a concorrência.</li>
+            </ul>
+        <p>Representante de Vendas - Dunder Mifflin Paper Company (2006 - 2013)</p>
+            <ul>   
+                <li>Vendas de papel, suprimentos de escritório e outros produtos relacionados para clientes empresariais e individuais.
+                </li>
+                <li>Gestão de contas e construção de relacionamentos com clientes.</li>
+                <li>Participação em feiras e exposições para aumentar a conscientização sobre a empresa e seus produtos.</li>
+            </ul>
+            <h2>Formação Acadêmica</h2>
+            <p>Bacharelado em Finanças - Universidade Estadual de Ohio (2002 - 2006))</p>
+            <ul>
+                <li>GPA: 3.8/4.0</li>
+                <li>Membro da fraternidade Beta Theta Pi.</li>
+            </ul>
+            <p>Habilidades e Competências</p>
+            <ul>
+                <li>Forte habilidade de comunicação e relacionamento interpessoal.</li>
+                <li>Excelentes habilidades de apresentação e negociação.</li>
+                <li>Organização e gerenciamento de tempo eficazes.</li>
+                <li>Conhecimento avançado em Microsoft Office e Salesforce.</li>
+            </ul>
+
+ </main>
+  <footer></footer>
+    
+</body>
+</html>

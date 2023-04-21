@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor Stanley</title>
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/loading.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+    :root {
+    --cor:#16B5F4;
+        }
+        body,html{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+           text-align: center;
+           background-color: var(--cor);
+           height: 5vw;
+        }
+        header >img{
+            border: 10px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            width: max(14vw,110px);
+        }
+        nav{
+        background:var(--cor);
+        padding: 5px 0px ;
+        font-family: 'Source Sans Pro', sans-serif;
+        }
+        nav img{
+        vertical-align: text-top;
+        width: 19px;
+        padding: 0px;
+        }
+        nav a{
+        display: inline-block;
+        border-radius:10px 90px 5px 5px;
+        font-size: min( 20px,3vw);
+        text-decoration: none;
+        color: #e3f0ff;
+        padding: 10px 20px; 
+        }
+        nav a:hover{
+        transition: 0.9s ;
+        color:white;
+        font-size:min( 22px,2.9vw); 
+        }
+    </style>    
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div id="loader">
+        </div>
+    </div>
+    <header>
+        <img src="imagens/Luana.png" alt="Luana">
+    </header>
+    <nav>
+        <a href="index.html">
+          <img class="bottom" src="imagens/home.png" alt="Dunder Mifflin" type="imagem/png"> Home
+        </a>
+    </nav>  
+</body>
+</html>

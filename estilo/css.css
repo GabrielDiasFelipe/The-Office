@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root {
+    --cor0:#85C0FF ;
+    --cor1:#007aff ;
+    --cor2:#32936F;
+    --cor3:#E6C79C;
+    --cor4:#78586F;
+}
+*{
+border: 0px;
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--cor5)
+}
+header{
+
+    background-image: linear-gradient(to right,var(--cor0),var(--cor1));
+    text-align: center;
+}
+header img{
+
+    display: inline;
+    width: min(210px,40vw);
+    padding: 20px 0px;
+}
+nav{
+
+    background-image: linear-gradient(to right,var(--cor0),var(--cor1));
+    text-align: center;
+    padding: 15px 0px ;
+
+}
+nav img.bottom{
+
+    vertical-align: bottom;
+    width: 16px;
+    padding: 0px;
+}
+nav img{
+
+    vertical-align: text-top;
+    width: 16px;
+    padding: 0px;
+}
+ul > li{
+
+    display: inline;
+}
+nav a{
+
+    display: inline-block;
+    border-radius:10px 90px 5px 5px;
+    font-size: min( 14px,3vw);
+    text-decoration: none;
+    color: #e3f0ff;
+    padding: 10px 20px; 
+
+}
+nav a:hover{
+
+    transition: 0.9s ;
+    color:white;
+    font-size:min( 14.6px,2.9vw); 
+}
+
+section > article#vendedores{
+    background-color:#EBEBEB;
+}
+ article#vendedores > p{
+    font-family:Dosis, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 38px 0px;
+    text-align: center;
+    color:#323031;
+}
+div#vendedores{
+    display: inline-block;
+    text-align: center;
+    width: 98vw;
+    height: 150px;
+}
+div#vendedores img{
+    padding:5px 10px;
+    width:150px;
+    border-radius: 50%;
+    box-sizing: border-box;  
+}
+div#vendedores img:hover{
+    top: 10px;
+    border: solid #ffffffde 2px;
+    padding: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.492);
+    transform: translate(0px,-5px);
+    transition: transform 1s;
+}
+article#info{
+    display: none;
+   text-align: center;
+   background-color:#EBEBEB;
+}
+article#info > H1{
+    border-radius: 20px 10px;
+    font-family: 'Libre Baskerville', serif;
+    color: #dbdbdb;
+    background-color: #262626;
+    font-size:min( 18px,4vw) ;
+ 
+}
+div.text-intro{
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: max(30vw,340px);
+    padding:15px 20px;
+    border-radius: 10px 25px;
+    color:#ffffff ;
+    background-color: #262626;
+}
+
+div.text-intro>p{
+font-family: Arial, Helvetica, sans-serif;
+font-size:max( 16px,1.2vw);
+}
+div#intro img{
+    margin: 35px 30px;
+    width: max(30vw,300px);
+    border-radius: 10px 25px;
+}
+article.promo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: left;
+    width: 98vw;
+}
+div#principal{
+    box-shadow: inset 0px 1px 20px 1px rgba(0, 0, 0, 0.539);
+    background: url(../imagens/Predio.jpg) center bottom no-repeat fixed;
+    background-size: cover;
+    width:98vw;
+    height: 90px;
+}
+div#secundaria img{
+    box-sizing: border-box;
+    margin: auto;
+    width:23vw;
+    border-radius: 10%;
+}
+div.pro{
+    margin: 40px 0px 0px 20px;
+}
+div#secundaria img:hover{
+transition: 0.5s;
+  cursor:pointer;
+  width:23.8vw;
+}
+footer{
+    background-image: linear-gradient(to right,var(--cor1),var(--cor0));
+    height:1vw;
+}
+
+
